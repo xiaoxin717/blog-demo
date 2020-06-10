@@ -30,4 +30,5 @@ module.exports = {
       "/about/": ["", "a", "b"],
     },
   },
+  serviceWorker: true, //是否开启PWA
 };
