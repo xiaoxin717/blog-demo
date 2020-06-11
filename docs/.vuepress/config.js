@@ -5,8 +5,10 @@ module.exports = {
     logo: "/avatar.png",
     nav: [
       { text: "主页", link: "/" },
-      { text: "头部导航一", link: "/blog/javascript/" },
-      { text: "头部导航二", link: "/about/" },
+      { text: "三小强", link: "/blog/javascript/" },
+      { text: "Vue", link: "/vue/" },
+      { text: "浏览器", link: "/chrome/" },
+      { text: "HTTP", link: "/http/" },
     ],
     sidebar: {
       "/blog/": [
@@ -23,11 +25,16 @@ module.exports = {
           collapsable: true,
           children: [
             ["/blog/css/", "readme"],
-            ["/blog/css/two", "two"],
+            ["/blog/css/one", "one"],
           ],
         },
+        {
+          title: "html",
+          collapsable: true,
+          children: [["/blog/html/", "readme"]],
+        },
       ],
-      "/about/": ["", "a", "b"],
+      "/vue/": ["", "a", "b"],
     },
   },
   serviceWorker: true, //是否开启PWA
