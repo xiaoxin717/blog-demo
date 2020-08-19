@@ -1,8 +1,8 @@
 module.exports = {
   title: "小飞的博客",
-  head: [["link", { rel: "icon", href: "/avatar.jpeg" }]],
+  head: [["link", { rel: "icon", href: "/imgs/avatar.jpeg" }]],
   themeConfig: {
-    logo: "/avatar.jpeg",
+    logo: "/imgs/avatar.jpeg",
     nav: [
       { text: "主页", link: "/" },
       { text: "三小强", link: "/three/javascript/methods" },

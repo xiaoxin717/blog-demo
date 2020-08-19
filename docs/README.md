@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /spider.png
+heroImage: /imgs/spider.png
 heroText: 我的主页
 tagline: My homepage
 actionText: 测试版本 →
