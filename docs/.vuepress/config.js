@@ -52,7 +52,12 @@ module.exports = {
         {
           title: "版本", // 侧边栏名称
           collapsable: true, // 可折叠
-          children: [["/http/edition/0.9", "0.9版本"]],
+          children: [
+            ["/http/edition/0.9", "0.9版本"],
+            ["/http/edition/1.0", "1.0版本"],
+            ["/http/edition/1.1", "1.1版本"],
+            ["/http/edition/2.0", "2.0版本"],
+          ],
         },
       ],
     },
