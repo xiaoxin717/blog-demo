@@ -9,7 +9,7 @@ features:
   - title:
     details:
   - title: 日常学习记录
-    details: 此博客仅限个人日常学习记录所用
+    details: 此博客仅限个人日常学习记录所用，可以说，是一份整理
   - title:
     details:
 footer: 小飞的个人博客

@@ -59,6 +59,26 @@ module.exports = {
             ["/http/edition/2.0", "2.0版本"],
           ],
         },
+        {
+          title: "状态码", // 侧边栏名称
+          collapsable: true, // 可折叠
+          children: [
+            ["/http/code/1xx", "1xx"],
+            ["/http/code/2xx", "2xx"],
+            ["/http/code/3xx", "3xx"],
+            ["/http/code/4xx", "4xx"],
+            ["/http/code/5xx", "5xx"],
+          ],
+        },
+        {
+          title: "缓存", // 侧边栏名称
+          collapsable: true, // 可折叠
+          children: [
+            ["/http/cache/S-cache", "强缓存"],
+            ["/http/cache/C-cache", "协商缓存"],
+            ["/http/cache/compare", "两者对比"],
+          ],
+        },
       ],
     },
   },
