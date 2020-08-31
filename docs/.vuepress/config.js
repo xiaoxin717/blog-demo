@@ -79,6 +79,11 @@ module.exports = {
             ["/http/cache/compare", "两者对比"],
           ],
         },
+        {
+          title: "原理", // 侧边栏名称
+          collapsable: true, // 可折叠
+          children: [["/http/principle/mi.md", "加密"]],
+        },
       ],
     },
   },
