@@ -82,8 +82,14 @@ module.exports = {
         {
           title: "原理", // 侧边栏名称
           collapsable: true, // 可折叠
-          children: [["/http/principle/mi.md", "加密"]],
+          children: [
+            ["/http/principle/mi.md", "加密"],
+            ["/http/principle/ssl.md", "SSL"],
+            ["/http/principle/polling.md", "轮询"],
+            ["/http/principle/proxy.md", "代理"],
+          ],
         },
+        { title: "参考", path: "/http/guide" },
       ],
     },
   },
