@@ -89,7 +89,7 @@ module.exports = {
             ["/http/principle/proxy.md", "代理"],
           ],
         },
-        { title: "参考", path: "/http/guide" },
+        // { title: "参考", path: "/http/guide" },
       ],
     },
   },
